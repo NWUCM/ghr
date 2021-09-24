@@ -1,4 +1,4 @@
-h = 0.01
+h = 0.1
 yn = 1
 tn = 0
 def f(tn, yn):
@@ -11,6 +11,7 @@ for i in range(10):
     tn = tn + h
     error = yn1 - yn
     print(error)
+
 
     
 
